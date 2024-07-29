@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Email Notification</title>
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Libre Franklin -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+    <!-- Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="main-logo">
+        <img src="./images/logo.svg" alt="PING logo">
+      </div>
+
+      <div class="main-header flex">
+        <h1><span class="head">We are launching</span> soon!</h1>
+        <h2>Subscribe and get notified</h2>
+      </div>
+    </header>
+
+    <main class="flex">
+      <form class="form flex" action="#" novalidate>
+        <div class="input">
+          <input class="email" type="email" name="user-email" placeholder="Your email address..." autocomplete="off">
+          <div class="error-msg">
+            <p>Please provide a valid email address</p>
+          </div>
+        </div>
+
+        <button class="submit-btn" type="submit">Notify Me</button>
+      </form>
+      <img class="dashboard-img" src="./images/illustration-dashboard.png" alt="dashboard" width="100%">
+    </main>
+
+    <footer class="flex">
+      <ul class="social-medias flex">
+        <li id="social-medias-fb"><i class="fa-brands fa-facebook-f"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+      </ul>
+      <p>&copy; Copyright Ping. All right reserved.</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
